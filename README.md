@@ -5,23 +5,9 @@
 Install dependencies,
 
 ```bash
-$ npm i
+yarn add rimraf gulp gulp-babel gulp-less gulp-autoprefixer gulp-cssnano through2 --save-de
 ```
 
-Start the dev server,
+待处理：
 
-```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
-```
+​	组件内部的按需加载

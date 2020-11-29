@@ -7,6 +7,9 @@
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "build": "father-build",
+    "clean": "rimraf lib esm dist",
+    "build:types": "tsc -p tsconfig.build.json && cpr lib esm",
+    "build:gulp": "npm run clean && npm run build:types && gulp",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "release": "npm run build && npm publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
@@ -34,7 +37,14 @@
     "*.less"
   ],
   "dependencies": {
-    "react": "^16.12.0"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-less": "^4.0.1",
+    "react": "^16.12.0",
+    "rimraf": "^3.0.2",
+    "through2": "^4.0.2"
   },
   "devDependencies": {
     "@umijs/test": "^3.0.5",
