@@ -1,25 +1,5 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "jsx": "react",
-    "esModuleInterop": true,
-    "sourceMap": true,
-    "baseUrl": "./",
-    "strict": true,
-    "paths": {
-      "@/*": ["src/*"],
-      "@@/*": ["src/.umi/*"]
-    },
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["src/"],
-  "exclude": [
-    "src/**/__tests__",
-    "src/**/demo",
-    "src/**/style",
-    "src/**/*.md"
-  ]
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "emitDeclarationOnly": true },
+  "exclude": ["**/__tests__/**", "**/demo/**", "node_modules", "lib", "esm"]
 }
