@@ -2,18 +2,18 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
+      "dumi-react-ui/esm/*": ["src/*"],
+      "dumi-react-ui/lib/*": ["src/*"],
       "dumi-react-ui": ["src/index.ts"],
-      "dumi-react-ui/esm/*": ["components/*"],
-      "dumi-react-ui/lib/*": ["components/*"],
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
     },
     "target": "esnext",
     "module": "commonjs",
     "jsx": "react",
+    "strict": true,
     "declaration": true,
     "declarationDir": "lib",
-    "strict": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

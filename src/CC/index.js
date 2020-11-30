@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
 /**
  * @description:
  * @author: zs
@@ -5,7 +8,7 @@
  * @LastEditTime: 2020-11-29 22:21:59
  * @LastEditors: zs
  */
-import React from 'react';
+const react_1 = tslib_1.__importDefault(require("react"));
 const prefixCls = 'happy-alert';
 const kinds = {
     info: '#5352ED',
@@ -13,8 +16,7 @@ const kinds = {
     negative: '#FF4757',
     warning: '#FFA502',
 };
-const CC = ({ children, kind = 'info', ...rest }) => (React.createElement("div", Object.assign({ className: prefixCls, style: {
+const CC = ({ children, kind = 'info', ...rest }) => (react_1.default.createElement("div", Object.assign({ className: prefixCls, style: {
         background: kinds[kind],
     } }, rest), children));
-export default CC;
-//# sourceMappingURL=index.js.map
+exports.default = CC;
