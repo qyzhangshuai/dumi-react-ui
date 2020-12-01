@@ -1,10 +1,3 @@
-/**
- * @description:
- * @author: zs
- * @Date: 2020-12-01 21:23:43
- * @LastEditTime: 2020-12-01 21:35:59
- * @LastEditors: zs
- */
 import React from 'react';
 
 export type Kind = 'info' | 'positive' | 'negative' | 'warning';

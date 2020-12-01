@@ -1,13 +1,13 @@
 ---
-title: 'Foo'
+title: 'OrgTree'
 group:
-  title: Foo
+  title: OrgTree
 nav:
   title: 组件
-  path: /components  
+  path: /components
 ---
 
-## Foo组件
+## Foo 组件
 
 Demo:
 
