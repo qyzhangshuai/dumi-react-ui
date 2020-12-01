@@ -1,3 +1,3 @@
-export { default as Alert } from './Alert';
-export { default as Foo } from './Foo';
-export { default as CC } from './CC';
+export { default as Alert } from './alert';
+export { default as Foo } from './foo';
+export { default as Cc } from './cc';

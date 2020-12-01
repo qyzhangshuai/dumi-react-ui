@@ -29,7 +29,11 @@ export default defineConfig({
       { libraryName: 'antd', libraryDirectory: 'lib', style: true },
       'antd',
     ],
-    // ['import', { libraryName: 'dumi-react-ui', libraryDirectory: 'lib', style: true },'dumi-react-ui'],
+    [
+      'import',
+      { libraryName: 'dumi-react-ui', libraryDirectory: 'lib', style: true },
+      'dumi-react-ui',
+    ],
   ],
   // more config: https://d.umijs.org/config
 });

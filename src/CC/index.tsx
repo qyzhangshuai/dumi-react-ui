@@ -1,3 +1,10 @@
+/**
+ * @description:
+ * @author: zs
+ * @Date: 2020-12-01 21:23:43
+ * @LastEditTime: 2020-12-01 21:35:59
+ * @LastEditors: zs
+ */
 import React from 'react';
 
 export type Kind = 'info' | 'positive' | 'negative' | 'warning';
@@ -20,7 +27,7 @@ const kinds: KindMap = {
   warning: '#FFA502',
 };
 
-const CC: React.FC<AlertProps> = ({ children, kind = 'info', ...rest }) => (
+const Cc: React.FC<AlertProps> = ({ children, kind = 'info', ...rest }) => (
   <div
     className={prefixCls}
     style={{
@@ -32,4 +39,4 @@ const CC: React.FC<AlertProps> = ({ children, kind = 'info', ...rest }) => (
   </div>
 );
 
-export default CC;
+export default Cc;

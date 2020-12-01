@@ -1,7 +1,6 @@
 import React from 'react';
 import { Alert } from 'dumi-react-ui';
 import { Button } from 'antd';
-import 'dumi-react-ui/lib/Alert/style';
 
 export default () => {
   return (

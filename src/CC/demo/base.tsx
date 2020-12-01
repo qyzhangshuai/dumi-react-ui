@@ -1,5 +1,4 @@
 import React from 'react';
-import { CC } from 'dumi-react-ui';
-import 'dumi-react-ui/lib/Alert/style'
+import { Cc } from 'dumi-react-ui';
 
-export default () => <CC kind="warning">这是一条警告提示</CC>;
+export default () => <Cc kind="warning">这是一条警告提示</Cc>;
