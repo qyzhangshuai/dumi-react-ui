@@ -3,14 +3,5 @@
   "compilerOptions": {
     "emitDeclarationOnly": true
   },
-  "include": [
-    "src/"
-  ],
-  "exclude": [
-    "**/__tests__/**",
-    "**/demo/**",
-    "node_modules",
-    "lib",
-    "esm"
-  ]
+  "exclude": ["**/__tests__/**", "**/demo/**"]
 }

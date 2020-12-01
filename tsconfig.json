@@ -20,6 +20,6 @@
     "resolveJsonModule": true,
     "importHelpers": true
   },
-  "include": ["src", "global.d.ts"],
-  "exclude": ["types", "node_modules", "lib", "esm"]
+  "include": ["src", "typings.d.ts"],
+  "exclude": ["node_modules", "lib", "esm"]
 }

@@ -6,7 +6,6 @@
     "start": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
-    "build": "father-build",
     "clean": "rimraf lib esm dist",
     "build:types": "tsc -p tsconfig.build.json && cpr lib esm",
     "build:gulp": "npm run clean && npm run build:types && gulp",
